@@ -1,0 +1,17 @@
+{
+  "name": "epistudy",
+  "version": "1.0.0",
+  "description": "Epistudy - autonomous agentic AI learning platform for hackathon demos",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "build": "node -e \"console.log('Static build ready')\"",
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
